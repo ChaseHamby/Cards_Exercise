@@ -6,35 +6,35 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .h2 {
     text-align: center;
     border-style: ridge;
+    border-color: lightblue;
 }
 
 .img {
     margin-top: 10px;
-    margin-left: 35px;
+    margin-left: 80px;
     width: 75%;
 }
 
-.img2 {
-    width: 50px;
+.p {
+    padding: 10px;
 }
-
-.img3 {
-    width: 33%
-}
-
 
 .available {
     background-color: grey;
     color: yellow;
+    width: 403px;
 }
 .card {
-    width: 300px;
+    width: 400px;
     height: auto;
-    border-style: ridge
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 3px 10px #888888;
+    border-style: ridge;
 }
 
